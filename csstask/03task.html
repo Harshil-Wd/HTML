@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1d1d31;
+            color: white;
+            font-family: 'Inter', sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 100px;
+            margin-bottom: 40px;
+
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 50px;
+        }
+
+        .card-title {
+            font-weight: 700;
+            font-size: 20px;
+
+        }
+
+        .card-text {
+            font-weight: 100;
+            font-size: 15px;
+            justify-content: space-evenly;
+
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-around;
+            gap: 20px;
+
+
+        }
+
+        .card {
+            width: 300px;
+            padding: 20px;
+            box-shadow: 3px 3px 10px black;
+            border-radius: 10px;
+
+        }
+
+        img {
+            width: 100%;
+            opacity: 0.5;
+
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+
+        .gradient-purple{ background: linear-gradient(to top right, #8e2de2, #4a00e0);}
+        .gradient-blue{ background: linear-gradient(rgba(40, 230, 250, 0.8));}
+        .gradient-yellow{background: linear-gradient(rgba(250, 152, 40, 0.81));}
+    </style>
+</head>
+
+<body>
+    <h1>RESPONSIVE CARDS</h1>
+    <div class="container">
+
+        <div class="card">
+
+            <div class="card-img gradient-purple">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF5pLxuEr3nnLNrenyh0QFf4YF0l9X3B7qRQ&s"
+                    alt="">
+            </div>
+            <div class="card-content">
+                <div class="card-title">Las Vegas</div>
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor commodi
+                    recusandae eaque modi labore amet laborum quos veritatis ab architecto?</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img gradient-blue">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-tOo4U67K6lefuE_PX2-9HzbVa9Ntb2SPZg&s"
+                    alt="">
+            </div>
+            <div class="card-content">
+                <div class="card-title">New York</div>
+                <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti repellat
+                    asperiores, eveniet beatae veritatis voluptates voluptate accusantium libero sit alias!</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img gradient-yellow">
+                <img src="singapur.jpeg" alt=""></div>
+                <div class="card-content">
+                    <div class="card-title">Singapore</div>
+                    <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste libero
+                        impedit ullam, ea sequi assumenda amet iure magni atque?</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <h2>USING CSS GRID</h2>
+</body>
+
+</html>

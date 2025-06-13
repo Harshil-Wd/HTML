@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .container{
+        width: 1000px;
+        height: 400px;
+        padding:50px;
+        
+        justify-content: center;
+        /* background-color:  greenyellow; */
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIpm4TIKo77tuSmYWg2jZcdEtjQOIsp3HMoQ&s);
+        background-size: 100% 100%;
+        color: white;
+    }
+    button{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIpm4TIKo77tuSmYWg2jZcdEtjQOIsp3HMoQ&s);
+        color: white;
+    }
+    .ro{
+        height: 20px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 10px;
+
+    }
+    .a{
+        font-size: large;
+    }
+    .e{
+       font-size: large;
+       
+    }
+    .thr{
+        width: 30px;
+    }
+    
+
+</style>
+<body>
+    <div class="container">
+        <h1>Contact form</h1>
+        <table>
+            <form action="">
+            <tr>
+                <td><label for="">Your name</label></td>
+                <td><input type="text" placeholder="First name" class="a" ></td>
+                <td><input type="text" placeholder="Last name" class="a"></td>
+            </tr>
+            <tr>
+                <td><label for="">your email</label></td>
+                <td colspan=""><input type="email" placeholder="e.g hello@contact.net" class="e" ></td>
+            </tr>
+            <tr>
+                <td><label for="">phone</label></td>
+                <div class="thr">
+                <td><input type="number" placeholder="###"></td>
+                <td><input type="number" placeholder="###"></td>
+                <td><input type="number" placeholder="###"></td></div>
+            </tr>
+            <tr>
+                <td><label for="">Massage subject*</label></td>
+                <td><select name="" id="" >
+                    <option value="">Other</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="">Message*</label></td>
+                <td><textarea name="" id="" wi ></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="">Verification*</label></td>
+                <td><div class="ro"><input type="checkbox">I'm not a robot &nbsp; <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/2048px-RecaptchaLogo.svg.png" alt="" width="20pxS" ></div> </td>
+            </tr>
+            <tr> <td>
+                 
+                 <hr>
+                 </td> </tr>
+    
+           <tr>
+            <td><button>SUBMIT FORM</button></td>
+           </tr>
+            </form>
+        </table>
+    </div>
+</body>
+</html>

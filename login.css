@@ -1,0 +1,19 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    min-height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background: url('https://static.vecteezy.com/system/resources/previews/015/134/640/large_2x/a-view-of-the-sky-with-clear-weather-in-the-morning-the-lush-green-fields-are-outdoors-agricultural-landscape-background-design-template-for-book-cover-magazine-website-photo.jpg');
+    background-position: 100%;
+    background-size: cover;
+}
+.a{
+    position: relative;
+    margin-bottom: 40px;
+}

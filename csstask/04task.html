@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  *{margin: 0;padding: 0;box-sizing: border-box;}
+  body{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4PHz5-rs86jbN6PgoXopVxyfsCfgSQ8fuSw&s');
+    background-size: 100% 100%;
+    padding: 50px;
+  }
+
+ .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+ }
+ .card{
+  background-color: white;
+  border-radius:10px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 5px 5px 12px black;  
+  }
+
+ img{width: 100%;height: 160px;}
+
+ .card-body{
+   padding: 10px;
+ }
+
+ .card-footer{
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+ }
+     .footer-pink {
+      background-color: #ff007f;
+    }
+
+    .footer-orange {
+      background-color: #ff5500;
+    }
+
+    .footer-green {
+      background-color: #009933;
+    }
+
+    .card-footer div {
+      text-align: center;
+    }
+
+    .card-footer div span {
+      display: block;
+      font-size: 15px;
+    }
+    .date{text-align: center;font-size: 10px;}
+    h3{
+      text-align: center;
+      margin: 0;
+      font-size: 25px;}
+      p{text-align: center;font-size: 12px;}
+</style>
+<body>
+    <div class="container">
+
+         <div class="card">
+      <img src="himalay1.jpeg" alt="Post One">
+      <div class="card-body">
+        <div class="date" style="color: #ff007f;">4 days ago</div>
+        <h3>Post One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur. Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor.</p>
+      </div>
+      <div class="card-footer footer-pink">
+        <div><span>4<sup>m</sup></span>READ</div>
+        <div><span>5123</span>VIEWS</div>
+        <div><span>32</span>COMMENTS</div>
+      </div>
+    </div>
+
+    <div class="card">
+        <img src="desert2.jpeg" alt="">
+        <div class="card-body">
+            <div class="date" style="color: #ff5500;">1 week ago</div>
+            <h3>Post two</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor.</p>
+        </div>
+        <div class="card-footer footer-orange">
+          <div><span>7<sup>m</sup>
+          </span> read</div>
+          <div><span>7152</span>VIEWS</div>
+          <div><span>21</span>COMMENTS</div>
+        </div>
+    </div>
+
+    <div class="card">
+      <img src="trees3.jpeg" alt="">
+      <div class="card-body">
+        <div class="date" style="color: #009933;">3 week ago</div>
+        <h3>post two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur. Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor.</p>
+      </div>
+      <div class="card-footer footer-green">
+         <div><span>5<sup>m</sup></span>READ</div>
+        <div><span>3021</span>VIEWS</div>
+        <div><span>15</span>COMMENTS</div>
+      </div>
+    </div>
+
+
+
+    </div>
+</body>
+</html>

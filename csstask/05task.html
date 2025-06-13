@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            h1{text-align: center;}
+            .container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+            .card{
+                width: 200px;
+                height: 180px;
+                border: 2px solid black;
+                text-align: center;
+                padding: 10px;
+            }
+            i{font-size:50px;margin: 10px;}
+            .title{font-weight: 900;margin: 10px;font-size: 20px;}
+            .text{font-size: 8px;}
+            button{
+                width: 200px; 
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+            }
+            .card:hover {
+                transform: scale(1.02);
+            }
+
+        </style>
+</head>
+
+<body>
+    <h1>RESPONSIVE CARDS CSS</h1>
+    <div class="container">
+        <div class="card">
+            <i class="fa-brands fa-twitter"></i>
+            <div class="title">TWITTER</div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quod cupiditate mollitia atque.
+                    Exercitationem, nostrum.</p>
+            <div class="bt">
+                <button>submit</button>
+            </div>        
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-instagram"></i>
+            <div class="title">INSTAGRAM</div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quod cupiditate mollitia atque.
+                    Exercitationem, nostrum.</p>
+            <div class="bt">
+                <button>submit</button>
+            </div>        
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-youtube"></i>
+            <div class="title">YOUTUBE</div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quod cupiditate mollitia atque.
+                    Exercitationem, nostrum.</p>
+            <div class="bt">
+                <button>submit</button>
+            </div>        
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
