@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background: linear-gradient(rgb(225, 139, 154),deeppink),url('ant.jpeg'); */
+            background: linear-gradient(rgba(228, 10, 185, 0.7),rgba(234, 18, 169, 0.685)),url(himalay.jpeg);
+            background-size: 100% 100%;
+            
+        }
+        .box{
+            width: 400px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .box h2{
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+        .in input{
+            display: flex;
+            width: 90%;
+            padding: 10px;
+            margin-left: 20px;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid deeppink;
+            
+        }
+        .in textarea{
+            border: none;
+            outline: none;
+            border-bottom: 2px solid deeppink;
+            padding: 10px;
+            margin-left: 20px;
+            width: 90%;
+            margin-bottom: 20px;
+        }
+        .bt button{
+            background: linear-gradient(to left,deeppink,orange);
+            color: white;
+            width: 180px;
+            padding: 8px;
+            margin-left: 120px;
+            margin-bottom: 40px;
+                        
+        }
+        button:hover{
+            opacity: 0.9;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Contact Us</h2>
+        <form action="">
+        <div class="in">
+            <input type="text" placeholder="NAME"><br>
+            <input type="email" placeholder="EMAIL"><br>
+             <textarea name="" id="" placeholder="MESSAGE"></textarea><br>
+        </div>
+        <div class="bt"><button>Send Your Message</button></div>
+        </form>
+    </div>
+    
+</body>
+</html>

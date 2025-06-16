@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 139, 1.5), rgba(0, 0, 255, 1.5));
+        }
+
+        body h1 {
+            position: absolute;
+            text-align: center;
+            top: 50px;
+        }
+
+        .box {
+            background-color: aquamarine;
+            position: relative;
+            width: 500px;
+            height: 60vh;
+            border-radius: 20px;
+
+        }
+
+        .bt button {
+            width: 155px;
+            height: 50px;
+
+            border-radius: 15px;
+            overflow: hidden;
+
+        }
+
+        .login {
+            background-color: rgb(250, 250, 250);
+            border: none;
+            position: absolute;
+            top: 20px;
+            left: 100px;
+
+
+        }
+
+        .register {
+            background-color: black;
+            color: white;
+            border: none;
+            position: absolute;
+            top: 20px;
+            right: 90px;
+        }
+
+        .form {
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            width: 310px;
+            padding: 30px;
+            top: 55px;
+            left: 100px;
+            position: absolute;
+        }
+
+        .form input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        .we {
+            font-size: 12px;
+            color: rgb(126, 125, 125);
+        }
+
+
+
+        .su button {
+            background-color: blue;
+            color: white;
+            border: none;
+            width: 30%;
+            padding: 8px;
+            border-radius: 10px;
+            margin-left: 175px;
+
+        }
+        .icon{
+            font-size: 40px;
+            position: absolute;
+            display: flex;
+            gap: 6px;
+            top: -20px;
+            right: -40px;
+            
+        }
+        .icon span{
+            display: block;
+            color: white;
+            font-size: 10px;
+            font-weight: 600;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>LOGIN FORM WITH NAV TABS</h1>
+    
+    <div class="container">
+        <div class="box">
+
+            <div class="icon">
+
+     <div class="html"><span>HTML</span><i class="fa-brands fa-html5" style="color: orangered;"></i></div>
+     <div class="css"> <span>CSS</span><i class="fa-brands fa-css3-alt" style="color: blue;"></i></div>
+     <div class="b"><i class="fa-solid fa-b" style="background-color: purple; color: white; padding: 10px;font-size: 30px;border-radius: 10px;"></i> </div>
+
+    </div>
+            <div class="bt">
+                <button class="login">Login</button>
+                <button class="register">Register</button>
+            </div>
+
+            <div class="form">
+
+                <div class="card-bo">
+                    <form action="">
+                        <label for="">Email address</label><br>
+                        <input type="text" placeholder="name@example.com" style="border-color: greenyellow;">
+
+                        <p class="we">We'll never share your email with anyone else.</p>
+
+                        <label for="">Password</label><br>
+                        <input type="password" placeholder="Password" style="border-color: red;">
+                        <p class="we">password incorrect.</p>
+
+                        <div class="su">
+                            <button>Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
